@@ -23,7 +23,7 @@
             // 项目名称
             name: '萱苏爱学习',
             // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-            repo: 'https://github.com/YSGStudyHards',
+            repo: 'https://github.com/xaun-su/xaun-su.github.io',
             // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
             loadSidebar: true,
             // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
@@ -38,9 +38,9 @@
             mergeNavbar: true,
             /*搜索相关设置*/
             search: {
-                maxAge: 86400000,// 过期时间，单位毫秒，默认一天
-                paths: 'auto',// 注意：仅适用于 paths: 'auto' 模式
-                placeholder: '搜索',              
+                maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+                paths: 'auto', // 注意：仅适用于 paths: 'auto' 模式
+                placeholder: '搜索',
                 // 支持本地化
                 placeholder: {
                     '/zh-cn/': '搜索',
@@ -55,6 +55,10 @@
     </script>
     <!-- docsify的js依赖 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <!-- PDFObject.js 是此插件的必需依赖 -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+    <!-- 这是 PDF 嵌入插件的源码 -->
+    <script src="path-to-file/docsify-pdf-embed.js"></script>
     <!-- emoji表情支持 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
     <!-- 图片放大缩小支持 -->

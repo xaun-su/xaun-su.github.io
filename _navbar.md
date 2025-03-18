@@ -1,20 +1,20 @@
 - **前段基础**
   - [**html学习笔记**](./html/html.md)
 - **css**
-  - [**css学习笔记**](https://www.bilibili.com/)
+  - [**css学习笔记**](#)
 - **JavaScript**
   - [**JavaScript基础**](./javascript/javascript基础.md)
-  - [**JavaScript进阶**](https://mvnrepository.com/)
-  - [**JavaScript高阶**](https://mvnrepository.com/)
--[**git**](git笔记.md)
+  - [**JavaScript进阶**](#)
+  - [**JavaScript高阶**](#)
+-[**git**](./git使用笔记/笔记.md)
 - **vue**
-  - [**vue基础**](https://hub.docker.com/)
-  - [**vue进阶**](https://mvnrepository.com/)
-  - [**vue高阶**](https://mvnrepository.com/)
+  - [**vue基础**](#)
+  - [**vue进阶**](#)
+  - [**vue高阶**](#)
 - **react**
-  - [**react基础**](https://hub.docker.com/)
-  - [**react进阶**](https://mvnrepository.com/)
-  - [**react高阶**](https://mvnrepository.com/)
+  - [**react基础**](./react/react基础.md)
+  - [**react进阶**](#)
+  - [**react高阶**](#)
 - **面试笔记**
     - [**vue面试题**](./面试题/vue面试.md)
     - [**react面试题**](./面试题/react面试.md)
@@ -23,5 +23,4 @@
 - **项目**
   - [**keep项目**]()
   - [**乐购商城**]()
--[**回到主页**](http://localhost:3000)
 
