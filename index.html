@@ -47,18 +47,16 @@
                     '/': 'Type to search'
                 },
                 noData: '找不到结果',
-                depth: 4,
+                depth: 6,
                 hideOtherSidebarContent: false,
                 namespace: 'Docsify-Guide',
             }
         }
+        console.log(localStorage.getItem('docsify.search.index'));
+
     </script>
     <!-- docsify的js依赖 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-    <!-- PDFObject.js 是此插件的必需依赖 -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-    <!-- 这是 PDF 嵌入插件的源码 -->
-    <script src="path-to-file/docsify-pdf-embed.js"></script>
     <!-- emoji表情支持 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
     <!-- 图片放大缩小支持 -->
