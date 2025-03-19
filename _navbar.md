@@ -23,6 +23,6 @@
     - [**JavaScript面试题**](./面试题/javascript面试.md)
     - [**前段基础**](./面试题/前段基础面试.md)
 - **项目**
-  - [**keep项目**](#)
-  - [**乐购商城**](#)
+  - [**keep项目**](https://gitee.com/f1927865184/xuan-su-loves-learning)
+  - [**乐购商城**](https://gitee.com/f1927865184/xuan-su-loves-learning)
 
