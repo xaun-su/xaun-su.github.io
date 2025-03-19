@@ -3,12 +3,11 @@
   - [**css基础**](./css笔记/css基础.md)
   - [**css进阶**](./css笔记/css进阶.md)
   - [**css高级**](./css笔记/css高级.md)
-
   - [**css属性补充**](./css笔记/css属性补充.md)
 - **JavaScript**
-  - [**JavaScript基础**](./javascript/javascript基础.md)
-  - [**JavaScript进阶**](#)
-  - [**JavaScript高阶**](#)
+  - [**JavaScript基础**](./javascript/js基础.md)
+  - [**JavaScript进阶**](./javascript/js进阶.md)
+  - [**JavaScript高阶**](./javascript/js高级.md)
 -[**git**](./git使用笔记/笔记.md)
 - **vue**
   - [**vue基础**](#)
