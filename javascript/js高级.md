@@ -1,4 +1,4 @@
-# JavaScript高级
+# JavaScript高级（全部重点）
 
 ## 一.作用域
 
@@ -1012,7 +1012,25 @@ arr.prototype.constructor===arr
 
 ### 2.2.对象原型
 
+**原型对象里面有一个原型空间 这个原型空间包括原型对象本身和构造函数原型对象里面的所有属性和方法以及constructor（构造函数）**   **constructor指向构造函数本身**
+**对象原型又分为隐式原型__proto__和显式原型prototype**
 
+```html
+    <script>
+      function Person() {
+        this.name = '小明'
+        this.age = 18
+      }
+      Person.prototype.sayHi = function () {
+        return 'Hi~'
+      }
+      let p1 = new Person()
+      //p1.__proto__ === Person.prototype
+      console.log(p1.__proto__ === Person.prototype)
+      console.log(p1.__proto__.constructor === Person)
+      console.log(p1.__proto__.constructor === Person.prototype.constructor)
+    </script>
+```
 对象都会有一个属性 --__proto__-- 指向构造函数的 prototype 原型对象，之所以我们对象可以使用构造函数 prototype 
 
 原型对象的属性和方法，就是因为对象有-- __proto-__- 原型的存在。
@@ -1086,6 +1104,8 @@ arr.prototype.constructor===arr
 ### 2.4.原型链
 
 基于原型对象的继承使得不同构造函数的原型对象关联在一起，并且这种关联的关系是一种链状的结构，我们将原型对
+
+对象使用属性和方法时的**查找规则：逐级向上，就近原则（根据实例对象的隐式原型proto）**
 
 象的链状结构关系称为原型链
 
@@ -1342,7 +1362,7 @@ arr.prototype.constructor===arr
 
 相当于断点调试
 
-## 十.this指向
+## 十.this指向（重点)
 
 > 了解函数中 this 在不同场景下的默认值，知道动态指定函数 this 值的方法。
 
